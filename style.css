@@ -1,0 +1,109 @@
+html body {
+	width: 100%
+}
+
+.mainContainer {
+	width: 100%
+}
+
+.header {
+	background-color: green;
+	color: white;
+}
+
+.menue1 {
+	display: flex;
+	justify-content: space-between;
+	
+
+}
+.menue1 a {
+	text-decoration: none;
+	color:  white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#start {
+	padding-left: 10px;
+}
+
+.navBar {
+	background-color: orange;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bar ul{
+  background-color: #000000;
+  overflow: hidden;
+  text-align: left;
+  margin: auto; }
+
+/* Style the links inside the navigation bar */
+.bar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 30px; }
+
+/* Change the color of links on hover */
+.bar a:hover {
+  background-color: yellow;
+  color: black; }
+
+/* Add a color to the active/current link */
+.bar a.active {
+  background-color: darkgrey;
+  color: white; }
+
+.bar li {
+  float: left;
+  list-style-type: none; }
+
+  .firstBar {
+  	width: 80%;
+  	font-size: 30px;
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  }
+
+  .sideBar{
+  	padding-right: 20px;
+  	font-size: 30px;
+  } 
+  .cart li {
+  	list-style-image: url('img/shopping.png')
+  }
+
+ .cotainer {
+ 	width: 100%;
+ 	display: flex;
+ 	flex-direction: column;
+ }
+ .row {
+ 	display: flex;
+ 	flex-direction: row;
+ }
+ .row img {
+ 	width: 100%
+ }
+
+ .imgText {
+ 	text-align: center;
+
+ }
+
+button {
+	width: 150px;
+	height: 50px;
+	background-color: green;
+	color: white;
+	font-size: 25px;
+	border-radius: 10px;
+}
